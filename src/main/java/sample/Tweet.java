@@ -17,7 +17,7 @@ import java.io.Serializable;
 		tokenizer = @TokenizerDef(
 				factory = ElasticsearchTokenizerFactory.class,
 				params = {
-						@Parameter(name = "type", value = "'kuromoji_tokenizer'")
+						@Parameter(name = "type", value = "kuromoji_tokenizer")
 				}
 		)
 )
